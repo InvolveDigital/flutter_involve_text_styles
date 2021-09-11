@@ -140,7 +140,7 @@ extension TextStyleExtensions on TextStyle {
       );
 
   /// Shortcut for color
-  TextStyle textColor(Color v) => copyWith(color: v);
+  TextStyle color(Color v) => copyWith(color: v);
 
   /// Shortcut for fontWeight
   TextStyle weight(FontWeight v) => copyWith(fontWeight: v);
