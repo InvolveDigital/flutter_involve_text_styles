@@ -51,25 +51,25 @@ extension TextStyleExtensions on TextStyle {
 
   TextStyle get title3 => customStyle(
         fontSize: 20,
-        letterSpacing: 0.38,
+        letterSpacing: -0.12,
         weight: FontWeight.normal,
       );
 
   TextStyle get title2 => customStyle(
         fontSize: 22,
-        letterSpacing: 0.35,
+        letterSpacing: -0.16,
         weight: FontWeight.normal,
       );
 
   TextStyle get title1 => customStyle(
         fontSize: 28,
-        letterSpacing: 0.36,
+        letterSpacing: -0.32,
         weight: FontWeight.normal,
       );
 
   TextStyle get largeTitle => customStyle(
         fontSize: 34,
-        letterSpacing: 0.37,
+        letterSpacing: -0.40,
         weight: FontWeight.normal,
       );
 
@@ -117,25 +117,25 @@ extension TextStyleExtensions on TextStyle {
 
   TextStyle get boldTitle3 => customStyle(
         fontSize: 20,
-        letterSpacing: 0.38,
+        letterSpacing: -0.12,
         weight: FontWeight.w600,
       );
 
   TextStyle get boldTitle2 => customStyle(
         fontSize: 22,
-        letterSpacing: 0.35,
+        letterSpacing: -0.16,
         weight: FontWeight.w700,
       );
 
   TextStyle get boldTitle1 => customStyle(
         fontSize: 28,
-        letterSpacing: 0.36,
+        letterSpacing: -0.32,
         weight: FontWeight.w700,
       );
 
   TextStyle get boldLargeTitle => customStyle(
         fontSize: 34,
-        letterSpacing: 0.37,
+        letterSpacing: -0.40,
         weight: FontWeight.w700,
       );
 
