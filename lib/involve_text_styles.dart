@@ -74,7 +74,7 @@ extension TextStyleExtensions on TextStyle {
       );
 
   TextStyle get largeTitle => customStyle(
-        fontSize: 34,
+        fontSize: 32,
         letterSpacing: -0.40,
         weight: FontWeight.normal,
       );
@@ -152,7 +152,7 @@ extension TextStyleExtensions on TextStyle {
       );
 
   TextStyle get boldLargeTitle => customStyle(
-        fontSize: 34,
+        fontSize: 32,
         letterSpacing: -0.40,
         weight: FontWeight.w700,
       );
