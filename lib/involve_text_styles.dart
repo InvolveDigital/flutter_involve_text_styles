@@ -25,6 +25,12 @@ extension TextStyleExtensions on TextStyle {
         weight: FontWeight.normal,
       );
 
+  TextStyle get footnote2 => customStyle(
+        fontSize: 14,
+        letterSpacing: -0.08,
+        weight: FontWeight.normal,
+      );
+
   TextStyle get subheadline => customStyle(
         fontSize: 15,
         letterSpacing: -0.24,
@@ -73,6 +79,12 @@ extension TextStyleExtensions on TextStyle {
         weight: FontWeight.normal,
       );
 
+  TextStyle get mediumSubheadline => customStyle(
+        fontSize: 15,
+        letterSpacing: -0.24,
+        weight: FontWeight.w500,
+      );
+
   TextStyle get boldCaption2 => customStyle(
         fontSize: 11,
         letterSpacing: 0.07,
@@ -87,6 +99,12 @@ extension TextStyleExtensions on TextStyle {
 
   TextStyle get boldFootnote => customStyle(
         fontSize: 13,
+        letterSpacing: -0.08,
+        weight: FontWeight.w600,
+      );
+
+  TextStyle get boldFootnote2 => customStyle(
+        fontSize: 14,
         letterSpacing: -0.08,
         weight: FontWeight.w600,
       );
