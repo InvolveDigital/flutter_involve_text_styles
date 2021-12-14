@@ -175,7 +175,7 @@ extension TextStyleExtensions on TextStyle {
     required FontWeight weight,
     String? fontFamily = 'Mahogany',
     String? package = 'involve_text_styles',
-    // List<String>? fontFamilyFallback = const ['.AppleSystemUIFont'],
+    List<String>? fontFamilyFallback = const ['.AppleSystemUIFont'],
   }) =>
       copyWith(
         letterSpacing: letterSpacing,
@@ -183,6 +183,6 @@ extension TextStyleExtensions on TextStyle {
         fontWeight: weight,
         fontFamily: fontFamily,
         package: package,
-        // fontFamilyFallback: fontFamilyFallback,
+        fontFamilyFallback: fontFamilyFallback,
       );
 }
