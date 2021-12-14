@@ -169,10 +169,20 @@ extension TextStyleExtensions on TextStyle {
   /// Shortcut for letterSpacing
   TextStyle letterSpace(double v) => copyWith(letterSpacing: v);
 
-  TextStyle customStyle(
-          {required double letterSpacing,
-          required double fontSize,
-          required FontWeight weight}) =>
+  TextStyle customStyle({
+    required double letterSpacing,
+    required double fontSize,
+    required FontWeight weight,
+    String? fontFamily = 'Mahogany',
+    String? package = 'involve_text_styles',
+    // List<String>? fontFamilyFallback = const ['.AppleSystemUIFont'],
+  }) =>
       copyWith(
-          letterSpacing: letterSpacing, fontSize: fontSize, fontWeight: weight);
+        letterSpacing: letterSpacing,
+        fontSize: fontSize,
+        fontWeight: weight,
+        fontFamily: fontFamily,
+        package: package,
+        // fontFamilyFallback: fontFamilyFallback,
+      );
 }
