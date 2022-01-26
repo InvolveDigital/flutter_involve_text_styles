@@ -69,13 +69,13 @@ extension TextStyleExtensions on TextStyle {
 
   TextStyle get title1 => customStyle(
         fontSize: 28,
-        letterSpacing: -0.32,
+        letterSpacing: -0.64,
         weight: FontWeight.normal,
       );
 
   TextStyle get largeTitle => customStyle(
         fontSize: 32,
-        letterSpacing: -0.40,
+        letterSpacing: -0.96,
         weight: FontWeight.normal,
       );
 
@@ -147,13 +147,13 @@ extension TextStyleExtensions on TextStyle {
 
   TextStyle get boldTitle1 => customStyle(
         fontSize: 28,
-        letterSpacing: -0.32,
+        letterSpacing: -0.64,
         weight: FontWeight.w700,
       );
 
   TextStyle get boldLargeTitle => customStyle(
         fontSize: 32,
-        letterSpacing: -0.40,
+        letterSpacing: -0.96,
         weight: FontWeight.w700,
       );
 
