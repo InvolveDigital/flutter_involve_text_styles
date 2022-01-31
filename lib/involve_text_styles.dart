@@ -85,6 +85,18 @@ extension TextStyleExtensions on TextStyle {
         weight: FontWeight.w500,
       );
 
+  TextStyle get mediumFootnote => customStyle(
+        fontSize: 13,
+        letterSpacing: -0.24,
+        weight: FontWeight.w500,
+      );
+
+  TextStyle get mediumCaption2 => customStyle(
+        fontSize: 11,
+        letterSpacing: -0.24,
+        weight: FontWeight.w500,
+      );
+
   TextStyle get boldCaption2 => customStyle(
         fontSize: 11,
         letterSpacing: 0.07,
